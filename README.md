@@ -1,42 +1,86 @@
-<h1 align="center">🎵 Istkhar Music🎵</h1>
+<h1 align="center">🎵 ISTKHAR Music Bot 🎵</h1>
 
 <p align="center">
-  <img src="https://files.catbox.moe/k1gf6k.jpg" alt="Istkhar Music Logo" width="600" height="150">
+  <img src="https://telegra.ph/file/29808c1fd50add3b1bfc6.jpg" alt="ISTKHAR Music Logo" width="600" height="150">
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/TEAM-ISTKHAR/IstkharMusic?style=for-the-badge&color=blue" alt="GitHub stars">
-  <img src="https://img.shields.io/github/forks/TEAM-ISTKHAR/IstkharMusic?style=for-the-badge&color=blue" alt="GitHub forks">
-  <img src="https://img.shields.io/github/issues/TEAM-ISTKHAR/IstkharMusic?style=for-the-badge&color=red" alt="GitHub issues">
-  <img src="https://img.shields.io/github/license/TEAM-ISTKHAR/IstkharMusic?style=for-the-badge&color=green" alt="GitHub license">
+  <img src="https://img.shields.io/github/stars/TeamISTKHAR/IstkharMusic?style=for-the-badge&color=blue" alt="GitHub stars">
+  <img src="https://img.shields.io/github/forks/TeamISTKHAR/IstkharMusic?style=for-the-badge&color=blue" alt="GitHub forks">
+  <img src="https://img.shields.io/github/issues/TeamISTKHAR/IstkharMusic?style=for-the-badge&color=red" alt="GitHub issues">
+  <img src="https://img.shields.io/github/license/TeamISTKHAR/IstkharMusic?style=for-the-badge&color=green" alt="GitHub license">
 </p>
 
 <h2 align="center">Delivering Superior Music Experience to Telegram</h2>
 
 ---
 
-<p align="center">
-  <a href="https://Istkharhost.in/">
-    <img src="https://img.shields.io/badge/Cheapest%20Web%20Hosting-1A237E?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cheapest Web Hosting">
-  </a>
-  <a href="https://t.me/Istkhar_Syn">
-    <img src="https://img.shields.io/badge/Contact%20Owner-2E64FE?style=for-the-badge&logo=telegram&logoColor=white" alt="Contact Owner">
-  </a>
-</p>
+### 🛠 Fix for YouTube Blocking VPS IPs
 
+YouTube blocks many VPS IPs. We now provide **two ways** to keep playback smooth:
+
+1. **API (Recommended):**  
+   Stream **audio & video** via our API with built-in vPlay support. No cookie hassle.
+
+2. **Custom Cookies (Fallback / No-API mode):**  
+   Generate cookies on your local machine and place them in the `cookies/` folder to bypass YouTube restrictions.
 
 ---
 
-#### 🛠️  Api For Music bot
-| Api Plan Name          | Daily Requests | Monthly Price  |
-|--------------------|----------------|----------------|
-| Month Plan          | 5,000          | ₹100          |
+## 🎵 Using the API for Audio & Video (vPlay)
+
+The API now supports **both audio and video**.  
+Use API for reliability; switch to **custom cookies** if you prefer not to rely on the API.
+
+---
+
+### 🔑 Get an API Key
+
+Manage keys from our official dashboard (no Telegram DMs needed):
+
+[![API Dashboard](https://img.shields.io/badge/Visit-Dashboard-black?style=for-the-badge&logo=vercel)](https://console.nexgenbots.xyz)  
+[![API Community](https://img.shields.io/badge/Join-API%20Community-green?style=for-the-badge&logo=telegram)](https://t.me/+DXGe6UE90y01NDVl)  
+[![Contact Rahul](https://img.shields.io/badge/DM-@RahulTC-blueviolet?style=for-the-badge&logo=telegram)](https://t.me/ItzRahul)  
+
+---
+
+#### 🛠️ Steps to Get Started
+
+1. **Sign up** at [console.nexgenbots.xyz](https://console.nexgenbots.xyz) and create an account.  
+2. **Generate Key**: After logging in, click **“Generate Key”** on the dashboard to activate the **Free Plan**.  
+3. **Upgrade anytime** via the dashboard for higher limits.  
+
+---
+
+### 📦 Plans & Pricing (₹/month)
+
+| Plan          | Daily API Requests | Daily Video Requests | Price   |
+|---------------|--------------------|----------------------|---------|
+| **Free**      | 5,000              | 250                  | ₹0      |
+| **Starter**   | 10,000             | 500                  | ₹01     |
+| **Standard**  | 15,000             | 750                  | ₹02     |
+| **Pro**       | 25,000             | 1,000                | ₹03     |
+| **Business**  | 50,000             | 2,000                | ₹04     |
+| **Enterprise**| 100,000            | 4,000                | ₹05     |
+| **Ultra**     | 150,000            | 5,000                | ₹06     |
+
 ---
 
 ### 📌 Important Notes About API Usage
 
-- 🔄 **Daily Reset**: Request limits reset at midnight (IST) every day.
-- 🎵 **Audio-Only API**: Video support requires cookies (see YouTube section above).
+- 🔄 **Daily Reset**: All limits reset at midnight (IST).  
+- 🎧🎬 **Audio + Video**: Fully supported via API (vPlay).  
+- 🍪 **Fallback**: Add local **custom cookies** if you prefer not to use the API (works for both audio & video).  
+- 💬 **Support**: Join the [API Community Group](https://t.me/+DXGe6UE90y01NDVl).  
+
+---
+
+### ⚙️ Integration
+
+Add your API key to `.env`:
+
+
+API_KEY=your-api-key-here
 
 ---
 
@@ -51,25 +95,10 @@
 
 ---
 
-<h2 align="center">🚀 One-Click Deploy to Heroku</h2>
-
-<p align="center">
-  <a href="https://dashboard.heroku.com/new?template=https://github.com/TEAM-ISTKHAR/IstkharMusic">
-    <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" />
-  </a>
-</p>
-
-<p align="center">
-  <i>Click the button above to instantly deploy Istkhar Music Bot on Heroku</i>
-</p>
-
+## 🚀 Deploy on Heroku 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/CyberPixelPro/IstkharMusic)
 
 ---
-<h2 align="center" style="color: #1E90FF; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-  🚀 Deploy on VPS Commands
-</h2>
-<hr style="border: 1px solid #1E90FF; width: 60%;">
-
 
 ### 🔧 Quick Setup
 
@@ -86,68 +115,63 @@
    ```bash
    sudo pip3 install -U pip
    ```
-4. **Installing Node**
+4. **Clone the Repository**
    ```bash
-   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash && source ~/.bashrc && nvm install v18
+   git clone https://github.com/CyberPixelPro/IstkharMusic && cd IstkharMusic
    ```
-5. **Clone the Repository**
-   ```bash
-   git clone https://github.com/TEAM-ISTKHAR/IstkharMusic && cd IstkharMusic
-   ```
-6. **Install Requirements**
+5. **Install Requirements**
    ```bash
    pip3 install -U -r requirements.txt
    ```
-7. **Create .env  with sample.env**
+6. **Create .env  with sample.env**
    ```bash
    cp sample.env .env
    ```
    - Edit .env with your vars
-8. **Editing Vars:**
+7. **Editing Vars:**
    ```bash
    vi .env
    ```
    - Edit .env with your values.
    - Press `I` button on keyboard to start editing.
    - Press `Ctrl + C`  once you are done with editing vars and type `:wq` to save .env or `:qa` to exit editing.
-9. **Installing tmux**
+8. **Installing tmux**
     ```bash
     sudo apt install tmux -y && tmux
     ```
-10. **Run the Bot**
+9. **Run the Bot**
     ```bash
     bash start
     ```
 
 ---
 
-
 ### 🛠 Commands & Usage
 
-The Istkhar Music Bot offers a range of commands to enhance your music listening experience on Telegram:
+The ISTKHAR Music Bot offers a range of commands to enhance your music listening experience on Telegram:
 
 | Command                 | Description                                 |
 |-------------------------|---------------------------------------------|
-| /play <song name>     | Play the requested song.                    |
-| /pause                | Pause the currently playing song.           |
-| /resume               | Resume the paused song.                     |
-| /skip                 | Move to the next song in the queue.         |
-| /stop                 | Stop the bot and clear the queue.           |
-| /queue                | Display the list of songs in the queue.     |
+| `/play <song name>`     | Play the requested song.                    |
+| `/pause`                | Pause the currently playing song.           |
+| `/resume`               | Resume the paused song.                     |
+| `/skip`                 | Move to the next song in the queue.         |
+| `/stop`                 | Stop the bot and clear the queue.           |
+| `/queue`                | Display the list of songs in the queue.     |
 
-For a full list of commands, use /help in [telegram](https://t.me/IstkharumusicBot).
+For a full list of commands, use `/help` in [telegram](https://t.me/ISTKHARBeatzBot).
 
 ---
 
 ### 🔄 Updates & Support
 
-Stay updated with the latest features and improvements to Istkhar Music Bot:
+Stay updated with the latest features and improvements to ISTKHAR Music Bot:
 
 <p align="center">
-  <a href="https://telegram.me/Arishfa_Update">
+  <a href="https://telegram.me/NexGenBotsIndia">
     <img src="https://img.shields.io/badge/Join-Support%20Group-blue?style=for-the-badge&logo=telegram">
   </a>
-  <a href="https://telegram.me/ll_ISTKHAR_ll">
+  <a href="https://telegram.me/NexGenBots">
     <img src="https://img.shields.io/badge/Join-Update%20Channel-blue?style=for-the-badge&logo=telegram">
   </a>
 </p>
@@ -156,12 +180,12 @@ Stay updated with the latest features and improvements to Istkhar Music Bot:
 
 ### 🤝 Contributing
 
-We welcome contributions to the Istkhar Music Bot project. If you'd like to contribute, please follow these steps:
+We welcome contributions to the ISTKHAR Music Bot project. If you'd like to contribute, please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch with a meaningful name.
 3. Make your changes and commit them with a descriptive commit message.
-4. Open a pull request against our main branch.
+4. Open a pull request against our `master` branch.
 5. Our team will review your changes and provide feedback.
 
 For more details, reach out us on telegram.
@@ -170,12 +194,17 @@ For more details, reach out us on telegram.
 
 ### 📜 License
 
-This project is licensed under the MIT License. For more details, see the [LICENSE](LICENSE.txt) file.
+This project is licensed under the MIT License. For more details, see the [LICENSE](LICENSE) file.
 
 ---
 
 ### 🙏 Acknowledgements
 
-Thanks to all the contributors, supporters, and users of the Istkhar Music Bot. Your feedback and support keep us going!
-- [Istkhar Music Bot](https://t.me/KittuXrobot) and [Istkhar Music](https://github.com/TEAM-ISTKHAR/IstkharMusic) For their Source Codes.
-- for invaluable assistance in resolving the IP ban issue.
+Thanks to all the contributors, supporters, and users of the ISTKHAR Music Bot. Your feedback and support keep us going!
+- Yukki Music & AnonX Music – Base inspiration
+- All contributors & community members
+  
+---
+
+⭐ If you like this project, don’t forget to star the repo!
+
