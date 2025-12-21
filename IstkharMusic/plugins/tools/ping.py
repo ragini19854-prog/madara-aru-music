@@ -1,5 +1,5 @@
 from datetime import datetime
-import rando
+import random
 
 from pyrogram import filters
 from pyrogram.types import Message
