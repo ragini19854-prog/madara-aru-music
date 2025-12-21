@@ -1,10 +1,10 @@
 {
 
-    "name": "Istkhar Music",
+    "name": "ISTKHAR Music",
 
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
 
-    "logo": "https://telegra.ph/Istkhar-02-24",
+    "logo": "https://telegra.ph/ISTKHAR-02-24",
 
     "keywords": [
 
@@ -14,7 +14,7 @@
 
     "bot",
 
-    "Istkhar",
+    "ISTKHAR",
 
     "MusicBot",
 
@@ -103,6 +103,16 @@
         "value": "",
 
         "required": false
+
+      },
+
+      "API_KEY": {
+
+        "description": "Your API key from console.nexgenbots.xyz",
+
+        "value": "",
+
+        "required": true
 
       },
 
