@@ -18,7 +18,7 @@ from IstkharMusic.utils.database import (
     remove_active_video_chat,
 )
 from IstkharMusic.utils.decorators.language import language
-from IstkharMusic.utils.pastebin import IstkharBin
+from IstkharMusic.utils.pastebin import ISTKHARBin
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
