@@ -64,7 +64,7 @@ class Userbot(Client):
             try:
                 await self.one.join_chat("IamIstkhar")
                 await self.one.join_chat("ll_Istkhar_ll")
-                await self.one.join_chat(Vibe_Bots")
+                await self.one.join_chat("Vibe_Bots")
                 await self.one.join_chat("THUNDERDEVS")
                 await self.one.join_chat("Itzz_sukku")
             except:
@@ -96,7 +96,7 @@ class Userbot(Client):
             try:
                 await self.two.join_chat("ll_Istkhar_ll")
                 await self.two.join_chat("IamIstkhar")
-                await self.two.join_chat(Vibe_Bots")
+                await self.two.join_chat("Vibe_Bots")
                 await self.two.join_chat("THUNDERDEVS")
             except:
                 pass
@@ -118,7 +118,7 @@ class Userbot(Client):
             await self.three.start()
             try:
                 await self.three.join_chat("IamIstkhar")
-                await self.three.join_chat(Vibe_Bots")
+                await self.three.join_chat("Vibe_Bots")
                 await self.three.join_chat("ll_Istkhar_ll")
                 await self.three.join_chat("THUNDERDEVS")
             except:
@@ -140,7 +140,7 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat(Vibe_Bots")
+                await self.four.join_chat("Vibe_Bots")
                 await self.four.join_chat("IamIstkhar")
                 await self.four.join_chat("ll_Istkhar_ll")
                 await self.four.join_chat("THUNDERDEVS")
@@ -164,7 +164,7 @@ class Userbot(Client):
             await self.five.start()
             try:
                 await self.five.join_chat("IamIstkhar")
-                await self.five.join_chat(Vibe_Bots")
+                await self.five.join_chat("Vibe_Bots")
                 await self.five.join_chat("ll_Istkhar_ll")
                 await self.five.join_chat("THUNDERDEVS")
             except:
