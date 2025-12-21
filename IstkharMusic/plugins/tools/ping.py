@@ -5,7 +5,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from IstkharMusic import app
-from IstkharMusic.core.call import Istkhar 
+from IstkharMusic.core.call import ISTKHAR 
 from IstkharMusic.utils import bot_sys_stats
 from IstkharMusic.utils.decorators.language import language
 from IstkharMusic.utils.inline import supp_markup
