@@ -130,7 +130,7 @@ async def gen_thumb(videoid):
                 font1 = font2 = font3 = font4 = ImageFont.load_default()
 
             image4 = ImageDraw.Draw(image2)
-            image4.text((10, 10), "KHUSHI VIBES", fill="white", font=font1, align="left") 
+            image4.text((10, 10), "BETA VIBE", fill="white", font=font1, align="left") 
             image4.text((670, 150), "NOW PLAYING", fill="white", font=font2, stroke_width=2, stroke_fill="white", align="left") 
 
             title1 = truncate(title)
