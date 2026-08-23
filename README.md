@@ -88,4 +88,4 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 <a href="https://github.com/TEAM-ISTKHAR"> <img src="https://img.shields.io/badge/TEAM-ISTKHAR-black?style=for-the-badge&logo=github" alt="TEAM-ISTKHAR" /> </a>
 
 
-- <b> sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [ᴛᴇᴀᴍ ʙʀᴀɴᴅᴇᴅ](https://github.com/TEAM-ISTKHAR) ғᴏʀ [ ᴍᴜsɪᴄ ʙᴏᴛ](https://github.com/TEAM-ISTKHAR/IstkharMusic). </b>
+- <b> sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [TEAM ISTKHAR](https://github.com/TEAM-ISTKHAR) ғᴏʀ [ ᴍᴜsɪᴄ ʙᴏᴛ](https://github.com/TEAM-ISTKHAR/IstkharMusic). </b>
