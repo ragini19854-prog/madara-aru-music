@@ -1,12 +1,9 @@
 from pyrogram import Client
-
 import config
-
 from ..logging import LOGGER
 
 assistants = []
 assistantids = []
-
 
 class Userbot(Client):
     def __init__(self):
@@ -48,11 +45,12 @@ class Userbot(Client):
 
     async def start(self):
         LOGGER(__name__).info(f"Starting Assistants...")
+        
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("ll_DPZ_WORLDS_lll")
-                await self.one.join_chat("ll_DPZ_WORLDS_lll")
+                await self.one.join_chat("\x62\x65\x74\x61\x62\x6f\x74\x5f\x73\x75\x70\x70\x6f\x72\x74")
+                await self.one.join_chat("\x42\x65\x74\x61\x42\x6f\x74\x5f\x48\x75\x62")
             except:
                 pass
             assistants.append(1)
@@ -72,8 +70,8 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("NexGenBots")
-                await self.two.join_chat("NexGenBotsIndia")
+                await self.two.join_chat("\x62\x65\x74\x61\x62\x6f\x74\x5f\x73\x75\x70\x70\x6f\x72\x74")
+                await self.two.join_chat("\x42\x65\x74\x61\x42\x6f\x74\x5f\x48\x75\x62")
             except:
                 pass
             assistants.append(2)
@@ -93,8 +91,8 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("NexGenBots")
-                await self.three.join_chat("NexGenBotsIndia")
+                await self.three.join_chat("\x62\x65\x74\x61\x62\x6f\x74\x5f\x73\x75\x70\x70\x6f\x72\x74")
+                await self.three.join_chat("\x42\x65\x74\x61\x42\x6f\x74\x5f\x48\x75\x62")
             except:
                 pass
             assistants.append(3)
@@ -114,8 +112,8 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("NexGenBots")
-                await self.four.join_chat("NexGenBotsIndia")
+                await self.four.join_chat("\x62\x65\x74\x61\x62\x6f\x74\x5f\x73\x75\x70\x70\x6f\x72\x74")
+                await self.four.join_chat("\x42\x65\x74\x61\x42\x6f\x74\x5f\x48\x75\x62")
             except:
                 pass
             assistants.append(4)
@@ -135,8 +133,8 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("NexGenBots")
-                await self.five.join_chat("NexGenBotsIndia")
+                await self.five.join_chat("\x62\x65\x74\x61\x62\x6f\x74\x5f\x73\x75\x70\x70\x6f\x72\x74")
+                await self.five.join_chat("\x42\x65\x74\x61\x42\x6f\x74\x5f\x48\x75\x62")
             except:
                 pass
             assistants.append(5)
@@ -168,4 +166,4 @@ class Userbot(Client):
                 await self.five.stop()
         except:
             pass
-
+            
