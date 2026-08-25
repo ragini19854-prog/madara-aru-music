@@ -1,8 +1,5 @@
 from typing import Union
-
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from pyrogram.enums import ButtonStyle
-
 def queue_markup(
     _,
     DURATION,
@@ -43,8 +40,6 @@ def queue_markup(
     ]
     upl = InlineKeyboardMarkup(not_dur if DURATION == "Unknown" else dur)
     return upl
-
-
 def queue_back_markup(_, CPLAY):
     upl = InlineKeyboardMarkup(
         [
@@ -61,15 +56,12 @@ def queue_back_markup(_, CPLAY):
         ]
     )
     return upl
-
-
 def aq_markup(_, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
                     text=_["CLOSE_BUTTON"],
                     callback_data="close",
-                    style=ButtonStyle.PRIMARY,
             ),
         ],
     ]
