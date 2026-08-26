@@ -19,7 +19,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 18000))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", -1003951075235 ))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", -1004326940340 ))
 
 # Get this value from @MissRose_Bot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", None))
@@ -43,8 +43,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/pomes_29")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+2SydHDcj0CE2NDQ9")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+Vo8tTaZsz9Q5Njk9")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/GMS_GIVEAWAY")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
