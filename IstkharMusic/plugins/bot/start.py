@@ -29,6 +29,10 @@ from IstkharMusic.utils.inline import help_pannel, private_panel, start_panel
 from config import BANNED_USERS
 from strings import get_string
 
+# Start video is defined here (not in config.py) — replace this URL/path with
+# your own video file, direct link, or a Telegram file_id.
+START_VID_URL = "https://image.zaw-myo.workers.dev/video/d42947c8-e27d-4551-be70-c43d42dc42b9"
+
 
 @app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
 @LanguageStart
@@ -40,8 +44,8 @@ async def start_pm(client, message: Message, _):
 
         if name.startswith("help"):
             keyboard = help_pannel(_)
-            return await message.reply_photo(
-                photo=config.START_IMG_URL,
+            return await message.reply_video(
+                video=START_VID_URL,
                 caption=_["help_1"].format(config.SUPPORT_GROUP),
                 protect_content=True,
                 reply_markup=keyboard,
@@ -101,8 +105,8 @@ async def start_pm(client, message: Message, _):
     out = private_panel(_)
     UP, CPU, RAM, DISK = await bot_sys_stats()
 
-    await message.reply_photo(
-        photo=config.START_IMG_URL,
+    await message.reply_video(
+        video=START_VID_URL,
         caption=_["start_2"].format(
             message.from_user.mention,
             app.mention,
@@ -131,8 +135,8 @@ async def start_gp(client, message: Message, _):
     out = start_panel(_)
     uptime = int(time.time() - _boot_)
 
-    await message.reply_photo(
-        photo=config.START_IMG_URL,
+    await message.reply_video(
+        video=START_VID_URL,
         caption=_["start_1"].format(app.mention, get_readable_time(uptime)),
         reply_markup=InlineKeyboardMarkup(out),
     )
@@ -250,8 +254,8 @@ async def welcome(client, message: Message):
                     return await app.leave_chat(message.chat.id)
 
                 out = start_panel(_)
-                await message.reply_photo(
-                    photo=config.START_IMG_URL,
+                await message.reply_video(
+                    video=START_VID_URL,
                     caption=_["start_3"].format(
                         message.from_user.first_name,
                         app.mention,
