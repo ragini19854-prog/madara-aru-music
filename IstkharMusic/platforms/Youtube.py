@@ -44,12 +44,12 @@ _verify()
 
 # Your deployed Madara Music website URL (no trailing slash)
 # Set MADARA_API_URL in your .env or environment before running
-MADARA_API_URL = os.environ.get("MADARA_API_URL", "https://your-site.replit.app").rstrip("/")
+MADARA_API_URL = os.environ.get("MADARA_API_URL", "https://ytapibymadara-production.up.railway.app/").rstrip("/")
 
 # Your Madara Music API key — required for unlimited song search/download.
 # Get one by signing in on your Madara Music site and visiting the
 # "API Keys" page (/api-keys), then set it in your .env as MADARA_API_KEY.
-MADARA_API_KEY = os.environ.get("MADARA_API_KEY", "YOUR_API_KEY_HERE")
+MADARA_API_KEY = os.environ.get("MADARA_API_KEY", "mm_eddb30f8517c3b3dc42d5f928575d956a8857ad98d8b56be799e6d3647752caf")
 
 if MADARA_API_KEY == "YOUR_API_KEY_HERE":
     print(
