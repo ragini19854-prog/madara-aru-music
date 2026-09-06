@@ -49,7 +49,7 @@ MADARA_API_URL = os.environ.get("MADARA_API_URL", "https://ytapibymadara-product
 # Your Madara Music API key — required for unlimited song search/download.
 # Get one by signing in on your Madara Music site and visiting the
 # "API Keys" page (/api-keys), then set it in your .env as MADARA_API_KEY.
-MADARA_API_KEY = os.environ.get("MADARA_API_KEY", "YOUR_API_KEY_HERE")
+MADARA_API_KEY = os.environ.get("MADARA_API_KEY", "mm_eddb30f8517c3b3dc42d5f928575d956a8857ad98d8b56be799e6d3647752caf")
 
 if MADARA_API_KEY == "YOUR_API_KEY_HERE":
     print(
