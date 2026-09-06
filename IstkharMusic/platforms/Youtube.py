@@ -2,7 +2,7 @@
 # Youtube.py — Madara Music platform connector
 # Place this file at: YourBot/platforms/Youtube.py
 # Powered by Madara Music (https://madara-music.replit.app)
-# Architecture: ShuklaMusic / madara_x_radha style
+# Architecture: ShuklaMusic / madara_x_radha style 
 #
 # Requires an API key for unlimited song search/download:
 #   1. Sign in on your deployed Madara Music site
